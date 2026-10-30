@@ -1,1 +1,42 @@
 @import "tailwindcss";
+
+/* Design token dari Figma (frame Homepage, Peta Interaktif, 404, Koleksi) */
+@theme {
+  --color-surface: #fbf9f5;
+  --color-surface-low: #f5f3ef;
+  --color-surface-mid: #efeeea;
+  --color-surface-high: #eae8e4;
+  --color-ink: #1b1c1a;
+  --color-ink-soft: #625d5b;
+  --color-ink-warm: #59413a;
+  --color-line: #dbdad6;
+  --color-brand: #c2410c;
+  --color-brand-deep: #9b2f00;
+  --color-brand-tint: #ffdbd0;
+  --color-amber: #f59e0b;
+  --color-dark: #30312e;
+
+  --font-display: "Outfit Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+}
+
+html { scroll-padding-top: 5rem; }
+body {
+  background: var(--color-surface);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+h1, h2, h3, h4 { font-family: var(--font-display); }
+
+:focus-visible {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 2px;
+}
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
