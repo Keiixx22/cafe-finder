@@ -33,16 +33,8 @@
   },
   {
     "id": 5,
-    "slug": "gemati-coffee",
-    "name": "Gemati Coffee",
-    "lat": -7.5508062,
-    "lng": 110.7621264,
-    "address": "Jl. Matoa Raya I, Karangasem, Kec. Laweyan, Kota Surakarta, Jawa Tengah 57145"
-  },
-  {
-    "id": 6,
-    "slug": "Margi Coffe",
-    "name": "Margi Coffe",
+    "slug": "margi-coffee",
+    "name": "Margi Coffee",
     "lat": -7.5508062,
     "lng": 110.7621264,
     "address": "Jl. Matoa Raya I, Karangasem, Kec. Laweyan, Kota Surakarta, Jawa Tengah 57145"
