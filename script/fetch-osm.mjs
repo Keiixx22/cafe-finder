@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
   {
     "id": 1,
@@ -40,3 +41,5 @@
     "address": "Jl. Matoa Raya I, Karangasem, Kec. Laweyan, Kota Surakarta, Jawa Tengah 57145"
   }
 ]
+=======
+>>>>>>> 6740dc270e29c4df40a5453e9bd9908d2e567f09
