@@ -30,5 +30,16 @@
     "lat": -7.5508062,
     "lng": 110.7621264,
     "address": "Jl. Matoa Raya I, Karangasem, Kec. Laweyan, Kota Surakarta, Jawa Tengah 57145"
+<<<<<<< HEAD
+  },
+  {
+    "id": 5,
+    "slug": "margi-coffee",
+    "name": "Margi Coffee",
+    "lat": -7.5508062,
+    "lng": 110.7621264,
+    "address": "Jl. Matoa Raya I, Karangasem, Kec. Laweyan, Kota Surakarta, Jawa Tengah 57145"
+=======
+>>>>>>> 6740dc270e29c4df40a5453e9bd9908d2e567f09
   }
 ]

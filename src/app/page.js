@@ -1,10 +1,35 @@
+<<<<<<< HEAD
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import CafeList from "@/components/CafeList";
+import MapSection from "@/components/MapSection";
+import Districts from "@/components/Districts";
+import About from "@/components/About";
+import Newsletter from "@/components/Newsletter";
+import Footer from "@/components/Footer";
+=======
 import Link from "next/link";
 import { getCafes } from "@/lib/cafes";
 import CafeCard from "@/components/CafeCard";
+>>>>>>> 6740dc270e29c4df40a5453e9bd9908d2e567f09
 
 export default function Home() {
   const cafes = getCafes().slice(0, 4);
   return (
+<<<<<<< HEAD
+    <>
+      <Navbar />
+      <main>
+        <Hero />
+        <CafeList />
+        <MapSection />
+        <Districts />
+        <About />
+        <Newsletter />
+      </main>
+      <Footer />
+    </>
+=======
     <main>
       <section className="bg-surface-low">
         <div className="mx-auto max-w-[1280px] px-4 py-16 md:px-12 md:py-24">
@@ -24,5 +49,6 @@ export default function Home() {
         <div className="grid gap-4 md:grid-cols-2">{cafes.map((c) => <CafeCard key={c.id} cafe={c} />)}</div>
       </section>
     </main>
+>>>>>>> 6740dc270e29c4df40a5453e9bd9908d2e567f09
   );
 }
